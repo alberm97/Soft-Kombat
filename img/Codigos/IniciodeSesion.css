@@ -1,0 +1,29 @@
+
+#login-box {
+    border: 6px solid #00a8f3;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 40px 70px;
+}
+
+#login-box h1 {
+    color: #00a8f3;
+}
+
+div{
+position: absolute;
+width: 1430px;
+height: 839px;
+left: calc(50% - 1430px/2 + 4px);
+top: calc(50% - 839px/2 + 162.5px);
+
+background: url("https://thumbs.dreamstime.com/b/escudo-con-espadas-dibujo-mano-ilustraci%C3%B3n-del-vector-167625228.jpg");
+mix-blend-mode: normal;
+filter: blur(4px);
+border-radius: 150px;
+}
+
+
