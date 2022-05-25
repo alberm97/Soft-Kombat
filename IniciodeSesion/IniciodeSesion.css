@@ -1,0 +1,87 @@
+div {
+    position: absolute;
+    width: 1430px;
+    height: 839px;
+    left: calc(50% - 1430px/2 + 4px);
+    top: calc(50% - 839px/2 + 162.5px);
+    mix-blend-mode: normal;
+    border-radius: 150px;
+
+}
+
+body {
+    position: absolute;
+    width: 1430px;
+    height: 839px;
+    left: calc(50% - 1430px/2 + 4px);
+    top: calc(50% - 839px/2 + 162.5px);
+    background: url(../img/espadas.jpg);
+    mix-blend-mode: normal;
+
+}
+
+#titulo {
+
+    position: absolute;
+    width: 903px;
+    height: 157px;
+    font-family: 'Mortal Kombat 4';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 0px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+
+}
+
+#login-box {
+    background-color: #ffffff;
+    border-radius: 2em;
+    width: 40%;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 40px 70px;
+    position: absolute;
+    top: -25px;
+    opacity: 0.
+}
+
+#login-box h1 {
+    font-size: 50px;
+
+    color: #00a8f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.correo {
+    
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contraseña {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.botoninicio {
+
+    
+}
+
+.boton_personalizado {
+
+    height: 300px;
+    width: 700px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boton_personalizado:hover {
+
+    color: #00a8f3;
+    background-color: #ffffff;
+
+}
