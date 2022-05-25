@@ -1,3 +1,9 @@
+
+.fondo {
+    background-color: #1c1e22;
+}
+
+
 div {
     position: absolute;
     width: 1430px;
@@ -9,71 +15,104 @@ div {
 
 }
 
-body {
+
+#logo{
+    position: relative;
+    left: 5%;
+    width: 13%;
+    height: 10%;
+    margin-top: 1.5%;
+}
+
+#div_cabecera{
+    width: 40%;
     position: absolute;
-    width: 1430px;
-    height: 839px;
-    left: calc(50% - 1430px/2 + 4px);
-    top: calc(50% - 839px/2 + 162.5px);
-    background: url(../img/espadas.jpg);
-    mix-blend-mode: normal;
+    top: 5%;
+    left: 30%;
+    align-items: center;
+}
+
+#titulo{
+    margin: auto;
+    margin-top: -5%;
+    text-align: center;
+    font-family: 'MortalKombat4';
+    font-weight: 100;
+    font-size: 106px;
+    line-height: 131px;
+    letter-spacing: -0.03em;
+    color: white;
+    right: 4%;
 
 }
 
-#titulo {
+#subtitulo{
+    margin: auto;
+    margin-top: -1%;
+    font-family:'Montserrat_cursiva';
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
 
-    position: absolute;
-    width: 903px;
-    height: 157px;
-    font-family: 'Mortal Kombat 4';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 150px;
-    line-height: 0px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
+}
 
+@font-face {
+    font-family: MortalKombat4;
+    src: url(../Alvaro_SoftKombat/MK4.TTF);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Alvaro_SoftKombat/Montserrat_normal.ttf);
+}
+
+
+@font-face {
+    font-family: Montserrat_cursiva;
+    src: url(../Alvaro_SoftKombat/Montserrat_cursiva.ttf);
 }
 
 #login-box {
     background-color: #ffffff;
-    border-radius: 2em;
-    width: 40%;
-    height: 500px;
+    border-radius: 1em;
+    width: 20%;
+    height: 400px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 20%;
     padding: 40px 70px;
     position: absolute;
-    top: -25px;
-    opacity: 0.
+    top: 20px;
+    right: 4%;
+    
 }
 
 #login-box h1 {
-    font-size: 50px;
+    font-size: 30px;
 
     color: #00a8f3;
     font-family: 'Montserrat', sans-serif;
 }
 
 .correo {
-    
+    font-size: 10px;
+    height: 300px;
     color: #000;
     font-family: 'Montserrat', sans-serif;
 }
 
 .contraseña {
+    height: 500px;
+    margin-top: -70px;
+    font-size: 10px;
     color: #000;
     font-family: 'Montserrat', sans-serif;
 }
 
-.botoninicio {
-
-    
-}
-
 .boton_personalizado {
-
+    
     height: 300px;
     width: 700px;
     font-family: 'Montserrat', sans-serif;
@@ -81,7 +120,35 @@ body {
 
 .boton_personalizado:hover {
 
-    color: #00a8f3;
+    color: #00A8F3;
     background-color: #ffffff;
 
 }
+
+.botoninicio{
+    position: absolute;
+    margin-top: 230px;
+    margin-bottom: 300px;
+    margin-left: 5%;
+}
+
+.boton_salir{
+    position: absolute;
+    margin-top: 270px;
+    margin-bottom: 300px;
+    margin-left: -11%;
+
+}
+
+input{
+    border-color: #00A8F3;
+    
+    font-weight: bold;
+    width: 280px;
+
+  }
+
+  body{
+      background-image: url(../img/espadas.jpg);
+  }
+
