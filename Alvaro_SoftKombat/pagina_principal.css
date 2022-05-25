@@ -1,0 +1,123 @@
+
+.fondo {
+    background-color: #1c1e22;
+}
+
+.barra_botones{
+	background-color: #C4C4C4C4;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 57px;
+}
+
+ul{
+    margin: 0;
+	padding: 0;
+	font-size: 0;
+    position: relative;
+	z-index: 1;
+	text-align: center;
+}
+		
+li{
+    display: inline-table;
+    vertical-align: top;
+}
+
+.botones_menu{
+    
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+    line-height: 60px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    font-weight: 300;
+    color: black;
+    font-family: 'MortalKombat4'
+}
+
+.botones_menu::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: skewX(-30deg);
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: #3498DB;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.botones_menu:hover:after {
+    opacity: 1;
+}
+
+#logo{
+    position: relative;
+    left: 5%;
+    width: 12%;
+    height: 12%;
+}
+
+#div_cabecera{
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    align-items: center;
+}
+
+#titulo{
+    margin: auto;
+    text-align: center;
+    font-family: 'MortalKombat4';
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 131px;
+    letter-spacing: -0.03em;
+    color: white;
+
+
+}
+
+#subtitulo{
+    margin: auto;
+    font-family:'Montserrat_cursiva';
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: MortalKombat4;
+    src: url(MK4.TTF);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat_normal.ttf);
+}
+
+
+@font-face {
+    font-family: Montserrat_cursiva;
+    src: url(Montserrat_cursiva.ttf);
+}
+
+
+
+
+
+
+			
