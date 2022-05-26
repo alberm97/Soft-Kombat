@@ -16,7 +16,7 @@ div {
 
 #logo{
     position: relative;
-    left: 5%;
+    left: 2%;
     width: 13%;
     height: 10%;
     margin-top: 1.5%;
@@ -104,6 +104,7 @@ div {
     height: 300px;
     color: #000;
     font-family: 'Montserrat', sans-serif;
+    right: 10%;
 }
 
 .contraseña {
@@ -135,18 +136,38 @@ div {
     margin-left: 5%;
 }
 
-.boton_salir{
-    position: absolute;
-    margin-top: 270px;
-    margin-bottom: 300px;
-    margin-left: -11%;
 
-}
 
 input{
-    border-color: #00A8F3;
     
+    border-color: #00A8F3;
     font-weight: bold;
     width: 280px;
+    margin-right: 4%;
 
   }
+
+.boton_salir {
+    border: 1px solid #ff0000; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #ff0000; /*color botón*/
+    color: #ffffff; /*color texto*/
+    font-family: 'Monstserrat', sans-serif; /*tipografía texto*/
+    font-weight:900;
+    font-size:large;
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    
+    border-radius: 1em;
+    position: absolute;
+    margin-top: 425px;
+    margin-left: -16%;
+    
+    
+    }
+
+.boton_salir:hover{
+    color: #ff0000;
+    background-color: #ffffff;
+    
+}
