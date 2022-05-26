@@ -1,6 +1,5 @@
-
 .fondo {
-    background-color: #1c1e22;
+    background-color: #000000;
 }
 
 
@@ -33,8 +32,9 @@ div {
 }
 
 #titulo{
+    background-color: #1C1E22;
     margin: auto;
-    margin-top: -5%;
+    margin-top: 0%;
     text-align: center;
     font-family: 'MortalKombat4';
     font-weight: 100;
@@ -43,10 +43,12 @@ div {
     letter-spacing: -0.03em;
     color: white;
     right: 4%;
+    
 
 }
 
 #subtitulo{
+    background-color: #1C1E22;
     margin: auto;
     margin-top: -1%;
     font-family:'Montserrat_cursiva';
@@ -85,16 +87,18 @@ div {
     padding: 40px 70px;
     position: absolute;
     top: 20px;
-    right: 4%;
+    right: 13%;
     
 }
 
 #login-box h1 {
-    font-size: 30px;
-
+    font-size: 40px;
+    height: 50px;
+    
     color: #00a8f3;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .correo {
     font-size: 10px;
@@ -151,4 +155,3 @@ input{
   body{
       background-image: url(../img/espadas.jpg);
   }
-
