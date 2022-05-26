@@ -1,5 +1,5 @@
 .fondo {
-    background-color: #000000;
+    background-color: #1C1E22;
 }
 
 
@@ -11,7 +11,6 @@ div {
     top: calc(50% - 839px/2 + 162.5px);
     mix-blend-mode: normal;
     border-radius: 150px;
-
 }
 
 
@@ -150,8 +149,4 @@ input{
     font-weight: bold;
     width: 280px;
 
-  }
-
-  body{
-      background-image: url(../img/espadas.jpg);
   }
