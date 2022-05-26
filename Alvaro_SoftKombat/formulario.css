@@ -1,0 +1,7 @@
+#div_formulario{
+    background-color: white;
+    float: top;
+    position:absolute;
+    border-style: solid white;
+    overflow-y: scroll;
+}
