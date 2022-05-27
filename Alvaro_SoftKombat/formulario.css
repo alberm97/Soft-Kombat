@@ -1,0 +1,42 @@
+#div_registro{
+    position: absolute;
+    margin-top: 1%;
+    top: 30%;
+    left: 1%;
+    display: flex;
+    width: 93%;
+    height: 65%;
+    background-image: url(Imagenes/madera.jpg);
+    background-size:cover;
+    border-style: 1px solid yellow;
+    text-align:center;
+    border-radius: 70px 70px 70px 70px;
+    padding: 3%;
+}
+#div_formulario{
+    background-color: azure;
+    font-size: 150%;
+    width: 50%;
+    height: 80%;
+    text-align: justify;
+    padding: 2%;
+    font-family: Montserrat;
+    align-items: center;
+    border-radius: 70px 70px 70px 70px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat_normal.ttf);
+}
