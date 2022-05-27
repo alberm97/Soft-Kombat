@@ -181,24 +181,27 @@ input[type="radio"]{
     display: block;
 }
 
-[value="ANIME"]:checked ~ .posts .post:not([data-category~="ANIME"]),
-[value="SERIES"]:checked ~ .posts .post:not([data-category~="SERIES"]),
-[value="PELICULAS"]:checked ~ .posts .post:not([data-category~="PELICULAS"]),
-[value="MEDIEVAL"]:checked ~ .posts .post:not([data-category~="MEDIEVAL"]),
-[value="CIBERPUNK"]:checked ~ .posts .post:not([data-category~="CIBERPUNK"]),
-[value="VIDEOJUEGOS"]:checked ~ .posts .post:not([data-category~="VIDEOJUEGOS"]){
+[value="ESPADAS"]:checked ~ .posts .post:not([data-category~="ESPADAS"]),
+[value="KATANAS"]:checked ~ .posts .post:not([data-category~="KATANAS"]),
+[value="ARMADURAS"]:checked ~ .posts .post:not([data-category~="ARMADURAS"]),
+[value="ESCOBAS_MAGICAS"]:checked ~ .posts .post:not([data-category~="ESCOBAS_MAGICAS"]),
+[value="ESCUDOS"]:checked ~ .posts .post:not([data-category~="ESCUDOS"]),
+[value="ARCOS"]:checked ~ .posts .post:not([data-category~="ARCOS"]),
+[value="BARITAS"]:checked ~ .posts .post:not([data-category~="BARITAS"]),
+[value="DAGAS"]:checked ~ .posts .post:not([data-category~="DAGAS"]){
 
     display: none;
 }
 
 [value="TODOS"]:checked ~ .container-category [for="TODOS"],
-[value="ANIME"]:checked ~ .container-category [for="ANIME"],
-[value="SERIES"]:checked ~ .container-category [for="SERIES"],
-[value="PELICULAS"]:checked ~ .container-category [for="PELICULAS"],
-[value="MEDIEVAL"]:checked ~ .container-category [for="MEDIEVAL"],
-[value="CIBERPUNK"]:checked ~ .container-category [for="CIBERPUNK"],
-[value="VIDEOJUEGOS"]:checked ~ .container-category [for="VIDEOJUEGOS"]
-{
+[value="ESPADAS"]:checked ~ .container-category [for="ESPADAS"],
+[value="KATANAS"]:checked ~ .container-category [for="KATANAS"],
+[value="ARMADURAS"]:checked ~ .container-category [for="ARMADURAS"],
+[value="ESCOBAS_MAGICAS"]:checked ~ .container-category [for="ESCOBAS_MAGICAS"],
+[value="ESCUDOS"]:checked ~ .container-category [for="ESCUDOS"],
+[value="ARCOS"]:checked ~ .container-category [for="ARCOS"],
+[value="BARITAS"]:checked ~ .container-category [for="BARITAS"],
+[value="DAGAS"]:checked ~ .container-category [for="DAGAS"]{
     background: #46a2fd;
     color: #fff;
 }
