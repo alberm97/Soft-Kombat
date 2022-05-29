@@ -10,14 +10,14 @@ div {
     left: calc(50% - 1430px/2 + 4px);
     top: calc(50% - 839px/2 + 162.5px);
     mix-blend-mode: normal;
-    border-radius: 150px;
+    border-radius: 20px;
 }
 
 
 #logo{
     position: relative;
     left: 2%;
-    width: 13%;
+    width: 17%;
     height: 10%;
     margin-top: 0.5%;
 }
@@ -53,7 +53,7 @@ div {
     font-family:'Montserrat_cursiva';
     color: white;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 29px;
     text-align: center;
 
@@ -86,16 +86,18 @@ div {
     padding: 40px 70px;
     position: absolute;
     top: 20px;
-    right: 13%;
+    right: 5%;
     
 }
 
 #login-box h1 {
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 999px;
     height: 50px;
-    
     color: #00a8f3;
     font-family: 'Montserrat', sans-serif;
+    
+    
 }
 
 
@@ -116,7 +118,15 @@ div {
 }
 
 .boton_personalizado {
-    
+
+    text-decoration: none;
+          padding: 10px;
+          font-weight: 600;
+          font-size: 20px;
+          color: #ffffff;
+          background-color: #00A8F3;
+          border-radius: 6px;
+          border: 2px solid #00A8F3 ;
     height: 300px;
     width: 700px;
     font-family: 'Montserrat', sans-serif;
@@ -149,20 +159,20 @@ input{
 
 .boton_salir {
     border: 1px solid #ff0000; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
+    padding: 5px; /*espacio alrededor texto*/
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #ff0000; /*color botón*/
     color: #ffffff; /*color texto*/
-    font-family: 'Monstserrat', sans-serif; /*tipografía texto*/
     font-weight:900;
     font-size:large;
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
-    
     border-radius: 1em;
     position: absolute;
-    margin-top: 425px;
-    margin-left: -16%;
-    
+    margin-top: 445px;
+    margin-left: -15%;
+    font-family: 'Montserrat', sans-serif;
     
     }
 
@@ -176,6 +186,7 @@ input{
     background-image: url(../img/espadas.jpg);
     width: 100%;
     left: 0%;
+    margin-top: 7%;
 
 
 }
