@@ -14,15 +14,15 @@ div {
 }
 
 
-#logo{
+#logo {
     position: relative;
     left: 2%;
-    width: 17%;
-    height: 10%;
+    width: 13%;
+    height: 5%;
     margin-top: 0.5%;
 }
 
-#div_cabecera{
+#div_cabecera {
     width: 40%;
     position: absolute;
     top: 5%;
@@ -30,27 +30,29 @@ div {
     align-items: center;
 }
 
-#titulo{
+#titulo {
+
+    text-shadow: #1C1E22 2em 2em 2em;
     background-color: #1C1E22;
     margin: auto;
     margin-top: -4%;
     text-align: center;
     font-family: 'MortalKombat4';
     font-weight: 100;
-    font-size: 106px;
+    font-size: 133px;
     line-height: 131px;
     letter-spacing: -0.03em;
     color: white;
     right: 4%;
-    
+
 
 }
 
-#subtitulo{
+#subtitulo {
     background-color: #1C1E22;
     margin: auto;
-    margin-top: -1%;
-    font-family:'Montserrat_cursiva';
+    margin-top: 1%;
+    font-family: 'Montserrat_cursiva';
     color: white;
     font-weight: 700;
     font-size: 25px;
@@ -86,8 +88,8 @@ div {
     padding: 40px 70px;
     position: absolute;
     top: 20px;
-    right: 5%;
-    
+    right: 13%;
+
 }
 
 #login-box h1 {
@@ -96,8 +98,8 @@ div {
     height: 50px;
     color: #00a8f3;
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 }
 
 
@@ -120,13 +122,13 @@ div {
 .boton_personalizado {
 
     text-decoration: none;
-          padding: 10px;
-          font-weight: 600;
-          font-size: 20px;
-          color: #ffffff;
-          background-color: #00A8F3;
-          border-radius: 6px;
-          border: 2px solid #00A8F3 ;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00A8F3;
+    border-radius: 6px;
+    border: 2px solid #00A8F3;
     height: 300px;
     width: 700px;
     font-family: 'Montserrat', sans-serif;
@@ -139,54 +141,60 @@ div {
 
 }
 
-.botoninicio{
+.botoninicio {
     position: absolute;
-    margin-top: 230px;
+    margin-top: 210px;
     margin-bottom: 300px;
     margin-left: 5%;
 }
 
 
 
-input{
-    
+input {
+
     border-color: #00A8F3;
     font-weight: bold;
     width: 280px;
     margin-right: 4%;
 
-  }
+}
 
 .boton_salir {
-    border: 1px solid #ff0000; /*anchura, estilo y color borde*/
-    padding: 5px; /*espacio alrededor texto*/
+    border: 1px solid #ff0000;
+    /*anchura, estilo y color borde*/
+    padding: 5px;
+    /*espacio alrededor texto*/
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #ff0000; /*color botón*/
-    color: #ffffff; /*color texto*/
-    font-weight:900;
-    font-size:large;
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
+    background-color: #ff0000;
+    /*color botón*/
+    color: #ffffff;
+    /*color texto*/
+    font-weight: 900;
+    font-size: large;
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
     border-radius: 1em;
     position: absolute;
     margin-top: 445px;
-    margin-left: -15%;
+    margin-left: -17%;
     font-family: 'Montserrat', sans-serif;
-    
-    }
 
-.boton_salir:hover{
-    color: #ff0000;
-    background-color: #ffffff;
-    
 }
 
-.imagendefondo{
+.boton_salir:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+
+}
+
+.imagendefondo {
     background-image: url(../img/espadas.jpg);
     width: 100%;
     left: 0%;
-    margin-top: 7%;
-
+    margin-top: 0%;
+    filter: blur(1.5px);
 
 }
