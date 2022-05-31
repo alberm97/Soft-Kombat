@@ -1,0 +1,226 @@
+/*Portada*/
+
+
+.blog-container-cover{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../img/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog-container-cover:before{
+    
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 81, 235, 0.76);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-info-cover{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-info-cover h1{
+    font-size: 100px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-info-cover p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+/*Contenedor de categorias*/
+
+input[type="radio"]{
+    display: none;
+}
+
+.container-category{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container-category label{
+    padding: 6px 40px;
+    margin: 5px;
+    font-size: 30px;
+    background: #e2e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-category label:hover{
+    opacity: 0.8;
+    background: #46a2fd;
+    color: #fff;
+}
+
+
+
+/*PRODUCTOS*/
+
+.container-post{
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.posts{
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /*CANT productos x columna*/
+    grid-gap: 30px;
+    margin-top: 110px;
+    padding: 20px;
+}
+
+.posts .post{
+ 
+    
+    box-shadow: 0 0 20px -20px black;
+    border-radius: 6px;
+    
+    padding-bottom: 20px;
+}
+
+.post .ctn-img{
+    width: 100%;
+   
+    
+}
+
+.post .ctn-img img{
+    border-radius: 6px;
+    width: 300px;
+    height: 200px;
+    transition: transform .2s; 
+    object-fit: cover;
+}
+
+ 
+
+.post .ctn-img img:hover{
+    width: 100%;
+    height: auto;
+    transform: scale(1.5); 
+    
+    z-index: 18;
+    object-fit: cover;
+}
+
+.post h2{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+.post span{
+    display: block;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+.ctn-tag{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.ctn-tag li{
+    list-style: none;
+    font-size: 14px;
+    margin: 4px;
+    padding: 6px 10px;
+    background: #e8e8e8;
+    cursor: default;
+}
+
+
+.post button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #46a2fd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.post button:hover{
+    opacity: 0.9;
+}
+
+
+/*sistema de filtrado*/
+
+[value="TODOS"]:checked ~ .posts .post[data-category]{
+    display: block;
+}
+
+[value="ANIME"]:checked ~ .posts .post:not([data-category~="ANIME"]),
+[value="SERIES"]:checked ~ .posts .post:not([data-category~="SERIES"]),
+[value="PELICULAS"]:checked ~ .posts .post:not([data-category~="PELICULAS"]),
+[value="MEDIEVAL"]:checked ~ .posts .post:not([data-category~="MEDIEVAL"]),
+[value="CIBERPUNK"]:checked ~ .posts .post:not([data-category~="CIBERPUNK"]),
+[value="VIDEOJUEGOS"]:checked ~ .posts .post:not([data-category~="VIDEOJUEGOS"]){
+
+    display: none;
+}
+
+[value="TODOS"]:checked ~ .container-category [for="TODOS"],
+[value="ANIME"]:checked ~ .container-category [for="ANIME"],
+[value="SERIES"]:checked ~ .container-category [for="SERIES"],
+[value="PELICULAS"]:checked ~ .container-category [for="PELICULAS"],
+[value="MEDIEVAL"]:checked ~ .container-category [for="MEDIEVAL"],
+[value="CIBERPUNK"]:checked ~ .container-category [for="CIBERPUNK"],
+[value="VIDEOJUEGOS"]:checked ~ .container-category [for="VIDEOJUEGOS"]
+{
+    background: #46a2fd;
+    color: #fff;
+}
+
+@media screen and (max-width: 1200px){
+    .posts{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px){
+    .posts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 580px){
+    .posts{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
