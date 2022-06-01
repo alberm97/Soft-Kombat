@@ -47,6 +47,77 @@ body{
   'opsz' 48
 }
 
+.botones_inicio_sesion {
+ 
+    margin-left: 10px;
+    float: right;
+    position: relative;
+    top: 10%;
+    border: none;
+    outline: none;
+    font-family: 'ProductSansBold';
+    font-weight:200;
+    font-size:medium;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+button:hover {
+    color: #ffffff;
+}
+
+button span {
+    position: absolute;
+    background: rgb(255, 77, 0);
+    transition: .5s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}
 
 header{
     position: fixed;
@@ -70,7 +141,6 @@ header{
 
 .logo{
     
-    margin-top: -9%;
     height: 80px;
     margin-right: 230px;
     display: flex;
@@ -79,8 +149,6 @@ header{
 }
 
 .log1{
-
-    margin-top: -9% ;
     font-family: MortalKombat4;
     padding-top: 200px;
     margin-left: 145px;
@@ -178,7 +246,7 @@ header{
     width: 100px;
     margin-top: 32px;
     width: auto;
-    color: #46a2fd;
+    color: rgb(255, 77, 0);
 
     }
 

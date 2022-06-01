@@ -39,7 +39,9 @@ window.onscroll = function(){
 }
 
 
-
+function pulsar() {
+    alert("ARTICULO COMPRADO CON EXITO!!");
+    }
 
 
 //Buscador de contenido
