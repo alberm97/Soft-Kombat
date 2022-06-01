@@ -1,0 +1,124 @@
+
+    .fondo {
+        background-color: #1c1e22;
+    }
+
+    #div_barra_botones{
+        float: top;
+        position: absolute;
+        top: 25%;
+        border-style: solid white;
+    }
+
+    .barra_botones{
+        background-color: #C4C4C4C4;
+        
+        position: absolute;
+        top: 25%;
+        width: 100%;
+        height: 5%;
+    }
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+            
+    li{
+        display: inline-table;
+        vertical-align: top;
+    }
+    
+    .botones_menu{
+        
+        font-size: 30px;
+        display: block;
+        line-height: 160%;
+        padding: 0 35px;
+        text-transform: uppercase;
+        letter-spacing: 2%;
+        position: relative;
+        font-weight: 200;
+        color: black;
+        font-family: 'MortalKombat4'
+        
+    }
+    
+    .botones_menu::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        transform: skewX(-30deg);
+        opacity: 0;
+        transition: opacity 0.5s;
+        background-color: #3498DB;
+        border-right-style: solid;
+        border-left-style: solid;
+    }
+    
+    .botones_menu:hover:after {
+        opacity: 1;
+    }
+    
+    #logo{
+        float: left;
+        width: 15%;
+        height: 15%;
+        border:1px solid white;
+    }
+    
+    #div_cabecera{
+        width: 50%;
+        border:1px solid white;
+        float: left;
+        margin-left: 7%;
+    }
+    
+    
+    #titulo{
+        margin: auto;
+        text-align: center;
+        font-family: 'MortalKombat4';
+        font-weight: 400;
+        font-size: 800%;
+        margin-right: auto;
+        margin-left: auto;
+        letter-spacing: -0.03em;
+        color: white;
+        border:1px solid white;
+    
+    }
+    
+    #subtitulo{
+        margin: auto;
+        font-family:'Montserrat_cursiva';
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        border:1px solid white;
+    }
+    
+    @font-face {
+        font-family: MortalKombat4;
+        src: url(MK4.TTF);
+    }
+    
+    @font-face {
+        font-family: Montserrat;
+        src: url(Montserrat_normal.ttf);
+    }
+    
+    
+    @font-face {
+        font-family: Montserrat_cursiva;
+        src: url(Montserrat_cursiva.ttf);
+    }

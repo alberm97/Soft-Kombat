@@ -1,0 +1,243 @@
+.fondo {
+    background-color: #1C1E22;
+}
+
+div {
+    position: absolute;
+    width: 1430px;
+    height: 839px;
+    left: calc(50% - 1430px/2 + 4px);
+    top: calc(50% - 839px/2 + 162.5px);
+    mix-blend-mode: normal;
+    border-radius: 20px;
+}
+
+
+
+.header-content{
+
+    
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+
+    margin-left:auto ;
+    margin-bottom: 300%;
+    height: 80px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log1{
+
+    margin-top: -22%;
+    font-family: 'MortalKombat4';
+    padding-top: -500px;
+   
+    font-size: 128px;
+    font-weight: 400;
+    text-align: center;
+    color: #00A8F3;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    letter-spacing: -0.03em;
+
+}
+
+.subtitulo{
+
+    margin-top: -1%;
+    font-family: 'MortalKombat4';
+    padding-top: -500px;
+    
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #00A8F3;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    letter-spacing: -0.03em;
+}
+
+.logo h1 b{
+    color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'ProductSansBold';
+}
+
+#div_barra_botones{
+    float: top;
+    position: absolute;
+    top: 25%;
+    border-style: solid #C4C4C4;
+   
+}
+
+.barra_botones{
+    background-color: #C4C4C4C4;
+    margin-top: -10%;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    height: 5%;
+
+   
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+        
+li{
+    display: inline-table;
+    vertical-align: top;
+    
+}
+
+.botones_menu{
+    
+    font-size: 30px;
+    display: block;
+    line-height: 160%;
+    padding: 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+    position: relative;
+    font-weight: 200;
+    color: black;
+    font-family: 'MortalKombat4'
+    
+}
+
+.botones_menu::after{
+    content: '';
+    position: absolute;
+    top: -1%;
+    left: 0;
+    right: 0;
+    bottom: 12%;
+    z-index: -1;
+    transform: skewX(-30deg);
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: #3498DB;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.botones_menu:hover:after {
+    opacity: 1;
+}
+
+.botones_inicio_sesion {
+ 
+    margin-left: 150px;
+    float: right;
+    position: relative;
+    top: 10%;
+    margin-bottom: 300%;
+    margin-top: -18%;
+    margin-right: -10%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+    font-weight:900;
+    font-size:medium;
+    background: #1c1e22;
+    color: #dcc2e4;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+button:hover {
+    color: #00A8F3;
+}
+
+button span {
+    position: absolute;
+    background: #00A8F3;
+    transition: .5s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}
+
+@font-face {
+    font-family: MortalKombat4;
+    src: url(../Fuentes/MK4.TTF);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Alvaro_SoftKombat/Montserrat_normal.ttf);
+}
+
+
+@font-face {
+    font-family: Montserrat_cursiva;
+    src: url(../Alvaro_SoftKombat/Montserrat_cursiva.ttf);
+}
