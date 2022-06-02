@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Kombat</title>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="css/pagina_principal.css">
+    <link rel="stylesheet" href="css/botones_registro.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body class="fondo">
+    <header>
+
+        <img id="logo" src="imgs/Soft_kombat_logo.png" alt="Soft_kombat_logo">
+        <div id="div_cabecera">
+            <h1 id="titulo">
+                Soft Kombat
+            </h1>
+            <h3 id="subtitulo">
+                Unidos por una pasión, Soft combat y Quidditch
+            </h3>
+        </div>
+            
+        <div>
+            <button class="botones_inicio_sesion">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                INICIO SESION
+            </button>
+            <button class="botones_inicio_sesion">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                REGISTRO
+            </button>
+        </div>
+        
+    </header>
+    <div id="div_barra_botones">
+        <nav class="barra_botones">
+            <ul id="ul_barra_inicio">
+                <li class="barra_inico"><a class="botones_menu" href="https://www.youtube.com/watch?v=C77_YhKmrts">INICIO</a></li>
+                <li class="barra_inico"><a class="botones_menu">HERMANDADES</a></li>
+                <li class="barra_inico"><a class="botones_menu">TIENDA</a></li>
+                <li class="barra_inico"><a class="botones_menu">ACERCA DE NOSOTROS</a></li>
+                <li ><a class="botones_menu">MAS INFORMACION</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="div_registro">
+        <div id="div_formulario">
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="usuario">Usuario:</label><br>
+                            <input type="text" id="usuario"><br>
+                        </td>
+                        <td>
+                            <label for="nombre">Nombre:</label><br>
+                            <input type="text" id="nombre"><br>
+                        </td>
+                        <td>
+                            <label for="Apellidos">Apellidos:</label><br>
+                            <input type="text" id="usuario"><br>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+                            <input type="date" id="fecha_nacimiento"><br>
+                        </td>
+                        <td>
+                            <label for="correo">Correo electronico:</label><br>
+                            <input type="text" id="usuario"><br>
+                        </td>
+                        <td>
+                            <label for="clave">Contraseña:</label><br>
+                            <input type="text" id="clave">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                            <label for="html">Genero:</label><br>
+                            <input type="radio" id="html" name="genero" value="HTML">
+                            <label for="html">Hombre</label>
+                            <input type="radio" id="css" name="genero" value="CSS">
+                            <label for="css">Mujer</label><br>
+                        </td>
+                        
+                      </tr>
+                </table>
+                
+                <div style="float: left" class="g-recaptcha" data-sitekey="6LcayB8gAAAAAFlTUk8-pKcy9hpKNM80KDiAZhsU"></div>
+                <a id="boton_submit" href="https://www.w3schools.com/xml/xml_rss.asp" target="_blank">Enviar formulario</a>
+                
+                      
+            </form>
+        </div>
+        <div id="div_clase">
+            <h1>CLASE</h1>
+            <div class="slider_contenedor slider">
+                <img src="imgs/Flecha_izquierda.png" alt="" class="flecha" id="before">
+                
+                <div class="celda_slider celda_slider--show" data-id="1">
+                    <figure>
+                        <img src="imgs/Picaro.png" alt="" class="imagen_slider" >
+                    </figure>
+                </div>
+                <div class="celda_slider" data-id="2">
+                    <figure class="imagen_slider">
+                        <img src="imgs/Paladin.png" alt="" class="imagen_slider">
+                    </figure>
+                </div>
+                <div class="celda_slider" data-id="3">
+                    <figure clas="imagen_slider">
+                        <img src="imgs/Pekka.png" alt="" class="imagen_slider">
+                    </figure>
+                </div>
+                
+    
+                <img src="imgs/Flecha_derecha.png" alt="" class="flecha" id="next">
+            </div>
+        </div>
+        
+        <script src="js/slider.js"></script>
+
+    </div>
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+                <img src="imgs\Screenshot_1.png" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter icon-redes-footer"></i></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>© 2022 SoftKombat - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+        
+
+
+    
+
+</body>
+</html>
