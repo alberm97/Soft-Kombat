@@ -1,0 +1,215 @@
+
+    .fondo {
+        background-color: #1c1e22;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #div_barra_botones{
+       
+        float: top;
+
+    }
+
+    .barra_botones{
+        background-color: #C4C4C4C4;
+        
+        position: absolute;
+        top: 25%;
+        width: 100%;
+        height: 5%;
+    }
+    
+    ul{
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+            
+    li{
+        display: inline-table;
+        vertical-align: top;
+    }
+    
+    .botones_menu{
+        text-decoration: none;
+        font-size: 30px;
+        display: block;
+        line-height: 160%;
+        padding: 0 35px;
+        text-transform: uppercase;
+        letter-spacing: 2%;
+        position: relative;
+        font-weight: 200;
+        color: black;
+        font-family: 'MortalKombat4'
+	
+        
+    }
+    
+    .botones_menu::after{
+        text-decoration: none;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        transform: skewX(-30deg);
+        opacity: 0;
+        transition: opacity 0.5s;
+        background-color: #3498DB;
+        border-right-style: solid;
+        border-left-style: solid;
+    }
+    
+    .botones_menu:hover:after {
+        opacity: 1;
+    }
+    
+    #logo{
+        float: left;
+        width: 15%;
+        height: 15%;
+    }
+    
+    #div_cabecera{
+        width: 50%;
+        float: left;
+        margin-left: 7%;
+    }
+    
+    
+    #titulo{
+        margin: auto;
+        text-align: center;
+        font-family: 'MortalKombat4';
+        font-weight: 400;
+        font-size: 800%;
+        margin-right: auto;
+        margin-left: auto;
+        letter-spacing: -0.03em;
+        color: white;
+    
+    }
+    
+    #subtitulo{
+        margin: auto;
+        font-family:'ProductSans';
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container-footer{
+        width: 100%;
+        padding: 40px 0;
+        background: rgb(28, 30, 34);
+        margin-top: 1000px;
+        float: top;
+    }
+    
+    .container-footer footer{
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .container-footer footer .logo-footer{
+        text-align: center;
+    }
+    
+    .container-footer footer .logo-footer img{
+        width: 100px;
+    }
+    
+    .container-footer footer .redes-footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+    .container-footer footer .redes-footer .icon-redes-footer{
+        font-size: 20px;
+        margin: 20px;
+        background: rgb(28, 30, 34);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        color: #a2a2a2;
+    }
+    
+    footer .redes-footer .fa-facebook-f:hover{
+        background: #41579A;
+        color: #fff;
+    }
+    
+    footer .redes-footer .fa-twitter:hover{
+        background: #2890e6;
+        color: #fff;
+    }
+    
+    footer .redes-footer .fa-instagram:hover{
+        background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+        color: #fff;
+    }
+    
+    
+    .container-footer footer hr{
+        margin-top: 20px;
+        border: none;
+        height: 2px;
+        background: #c0c0c07a;
+    }
+    
+    
+    .container-footer h4{
+        text-align: center;
+        margin-top: 40px;
+        color: #8e8e8e;
+        font-weight: 500;
+    }
+    
+
+    
+    @font-face {
+        font-family: MortalKombat4;
+        src: url(MK4.TTF);
+    }
+    
+    @font-face {
+        font-family: Montserrat;
+        src: url(Montserrat_normal.ttf);
+    }
+    
+    
+    @font-face {
+        font-family: Montserrat_cursiva;
+        src: url(Montserrat_cursiva.ttf);
+    }
+
+    @font-face {
+    
+        font-family: ProductSans;
+        src: url(ProductSans-Regular.ttf);
+       
+    }
+    
+      @font-face {
+        
+        font-family: ProductSansBold;
+        src: url(ProductSans-Bold.ttf);
+       
+    }
