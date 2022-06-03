@@ -56,8 +56,8 @@ div {
 #div_cabecera{
     width: 50%;
     float: left;
-    margin-left: 12%;
-    margin-top: -190px;
+    margin-left: 22%;
+    margin-top: -100px;
 }
 
 
@@ -155,17 +155,17 @@ li{
 
 .botones_inicio_sesion {
  
-    margin-left: 150px;
+    margin-left: 28px;
     float: right;
     position: relative;
     top: 10%;
     margin-bottom: 300%;
-    margin-top: -18%;
-    margin-right: -10%;
+    margin-top: -10%;
+    margin-right: -2%;
     padding: 10px 15px;
     border: none;
     outline: none;
-    font-family: 'ProductSans-Bold';
+    font-family: 'Montserrat';
     font-weight:900;
     font-size:medium;
     background: #1c1e22;
@@ -178,20 +178,20 @@ li{
 #caja{
 
     background-color: #00A8F3;
-    margin-top: 10%;
-    margin-left: -9%;
+    margin-top: 13%;
+    margin-left: 0%;
     border-radius: 4%;
-    height: 95%;
-    width: 70%;
+    height: 122%;
+    width: 75%;
 
 }
 
 #caja2{
     background-color: #00A8F3;
-    margin-left: 68%;
+    margin-left: 77%;
     width: 16%;
-    height: 95%;
-    margin-top: 10%; 
+    height: 122%;
+    margin-top: 13%; 
 
 }
 
@@ -230,14 +230,24 @@ li{
 
 }
 
-#axe{
+#quidditch{
 
     width: 70%;
-    height: 20%;
+    height: 50%;
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 1%;
 
 }
+
+#manga{
+
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+
 
 
 
@@ -247,7 +257,7 @@ li{
     background: rgb(28, 30, 34);
     margin-top: 1000px;
     float: top;
-    margin-left: -12%;
+    margin-left: -2%;
 }
 
 .container-footer footer{
