@@ -17,7 +17,7 @@ div {
 #logo {
     position: relative;
     left: 2%;
-    width: 13%;
+    width: 17%;
     height: 5%;
     margin-top: 0.5%;
 }
@@ -35,11 +35,11 @@ div {
     text-shadow: #1C1E22 2em 2em 2em;
     background-color: #1C1E22;
     margin: auto;
-    margin-top: -4%;
+    margin-top: -7%;
     text-align: center;
     font-family: 'MortalKombat4';
     font-weight: 100;
-    font-size: 133px;
+    font-size: 106px;
     line-height: 131px;
     letter-spacing: -0.03em;
     color: white;
@@ -63,19 +63,9 @@ div {
 
 @font-face {
     font-family: MortalKombat4;
-    src: url(../Alvaro_SoftKombat/MK4.TTF);
+    src: url(../css/MK4.TTF);
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url(../Alvaro_SoftKombat/Montserrat_normal.ttf);
-}
-
-
-@font-face {
-    font-family: Montserrat_cursiva;
-    src: url(../Alvaro_SoftKombat/Montserrat_cursiva.ttf);
-}
 
 #login-box {
     background-color: #ffffff;
@@ -88,7 +78,7 @@ div {
     padding: 40px 70px;
     position: absolute;
     top: 20px;
-    right: 13%;
+    right: 3%;
 
 }
 
@@ -179,7 +169,7 @@ input {
     border-radius: 1em;
     position: absolute;
     margin-top: 445px;
-    margin-left: -17%;
+    margin-left: -15%;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -194,7 +184,7 @@ input {
     background-image: url(../img/espadas.jpg);
     width: 100%;
     left: 0%;
-    margin-top: 0%;
+    margin-top: 7%;
     filter: blur(1.5px);
 
 }
