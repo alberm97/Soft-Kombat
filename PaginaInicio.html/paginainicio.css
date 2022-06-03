@@ -1,5 +1,6 @@
 .fondo {
     background-color: #1C1E22;
+
 }
 
 div {
@@ -35,42 +36,6 @@ div {
     align-items: center;
 }
 
-.log1{
-
-    margin-top: -22%;
-    font-family: 'MortalKombat4';
-    padding-top: -500px;
-   
-    font-size: 128px;
-    font-weight: 400;
-    text-align: center;
-    color: #00A8F3;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    letter-spacing: -0.03em;
-
-}
-
-.subtitulo{
-
-    margin-top: -1%;
-    font-family: 'MortalKombat4';
-    padding-top: -500px;
-    
-    font-size: 25px;
-    font-weight: 400;
-    text-align: center;
-    color: #00A8F3;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    letter-spacing: -0.03em;
-}
-
-.logo h1 b{
-    color: #ffffff;
-}
 
 *{
     margin: 0;
@@ -80,11 +45,51 @@ div {
     font-family: 'ProductSansBold';
 }
 
+#logo{
+    float: left;
+    width: 13%;
+    height: 13%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#div_cabecera{
+    width: 50%;
+    float: left;
+    margin-left: 12%;
+    margin-top: -190px;
+}
+
+
+#titulo{
+    font-style: normal;
+    margin: auto;
+    text-align: center;
+    font-family: 'MortalKombat4';
+    font-weight: 400;
+    font-size: 800%;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: -0.03em;
+    color: white;
+
+}
+
+#subtitulo{
+    margin: auto;
+    font-family:'ProductSans';
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
 #div_barra_botones{
     float: top;
     position: absolute;
     top: 25%;
     border-style: solid #C4C4C4;
+    margin-top: -2%;
    
 }
 
@@ -95,8 +100,6 @@ div {
     top: 25%;
     width: 100%;
     height: 5%;
-
-   
 
 }
 
@@ -162,7 +165,7 @@ li{
     padding: 10px 15px;
     border: none;
     outline: none;
-    font-family: 'Montserrat';
+    font-family: 'ProductSans-Bold';
     font-weight:900;
     font-size:medium;
     background: #1c1e22;
@@ -170,6 +173,146 @@ li{
     cursor: pointer;
     overflow: hidden;
     
+}
+
+#caja{
+
+    background-color: #00A8F3;
+    margin-top: 10%;
+    margin-left: -9%;
+    border-radius: 4%;
+    height: 95%;
+    width: 70%;
+
+}
+
+#caja2{
+    background-color: #00A8F3;
+    margin-left: 68%;
+    width: 16%;
+    height: 95%;
+    margin-top: 10%; 
+
+}
+
+#ads{
+    font-family: 'ProductSans-Bold';
+    font-size: 200%;
+    color: white;
+    margin-left: 38.5%;
+    margin-top: 5%;
+    
+}
+
+#chivalry{
+
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#taberna{
+
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-top: 15%;
+
+}
+
+#domino{
+
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-top: 15%;
+
+}
+
+#axe{
+
+    width: 70%;
+    height: 20%;
+    margin-left: 15%;
+    margin-top: 15%;
+
+}
+
+
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: rgb(28, 30, 34);
+    margin-top: 1000px;
+    float: top;
+    margin-left: -12%;
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+    margin-top: -2%;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: rgb(28, 30, 34);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: #41579A;
+    color: #fff;
+}
+
+footer .redes-footer .fa-twitter:hover{
+    background: #2890e6;
+    color: #fff;
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    color: #fff;
+}
+
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #c0c0c07a;
+}
+
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500;
 }
 
 button:hover {
@@ -240,4 +383,14 @@ button:hover span:nth-child(4) {
 @font-face {
     font-family: Montserrat_cursiva;
     src: url(../Alvaro_SoftKombat/Montserrat_cursiva.ttf);
+}
+
+@font-face {
+    font-family: ProductSans-Bold;
+    src: url(../softKombat/css/ProductSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Product-Regular;
+    src: url(../softKombat/css/ProductSans-Regular.ttf);
 }
