@@ -1,0 +1,158 @@
+.block{
+    color: white;
+    width: 100%;
+}
+
+
+.articulo{
+width: 100%;
+height: 1800px;
+background:rgb(0, 0, 0);
+padding-top: 21px;
+margin-top: 150px;
+margin-bottom: 100px;
+
+
+}
+
+.article{
+    background: linear-gradient(to top ,rgb(255, 255, 255) 40%, rgb(100, 93, 92));;
+    color: rgb(0, 0, 0);
+   
+    width: 1400px;
+    height: 390px;
+    
+    border-radius: 10px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.article h2 {
+  margin-left: 600px;
+  padding-top: 10px;
+
+}
+
+.product img{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    background: white;
+    width: 400px;
+    height: 200px;
+}
+
+.product h2 {
+    
+    
+   margin-left: 800px;
+  float: right ;
+
+
+   
+}
+
+.product a {
+    font-size: 40px;
+    border-radius: 20px;
+    width: 600px;
+ height: 100px;
+ margin-left: 50px;
+ 
+    
+ }
+.type{
+    position: fixed;
+    
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: rgb(28, 30, 34);
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 10;
+}
+
+.clasificacion button{
+  
+  margin-left: 300px;
+  margin-right: auto;
+ 
+  padding: 10px 50px;
+  font-size: 35px;
+  background: rgb(255, 77, 0);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.clasificacion button:hover{
+  opacity: 0.9;
+}
+
+.product select{
+  margin-left: 20px;
+  padding: 10px 40px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* CLASIFICACION POR ESTRELLAS*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+     
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+    
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+   
+  }
+  
+  .clasificacion {
+    margin-bottom: auto;
+   font-size: 40px;
+    float:  left;
+    margin-left: 100px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
