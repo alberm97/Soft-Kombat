@@ -188,7 +188,7 @@ input[type="radio"]{
 [value="ESCOBAS_MAGICAS"]:checked ~ .posts .post:not([data-category~="ESCOBAS_MAGICAS"]),
 [value="ESCUDOS"]:checked ~ .posts .post:not([data-category~="ESCUDOS"]),
 [value="ARCOS"]:checked ~ .posts .post:not([data-category~="ARCOS"]),
-[value="BARITAS"]:checked ~ .posts .post:not([data-category~="BARITAS"]),
+[value="VARITAS"]:checked ~ .posts .post:not([data-category~="VARITAS"]),
 [value="DAGAS"]:checked ~ .posts .post:not([data-category~="DAGAS"]){
 
     display: none;
@@ -201,7 +201,7 @@ input[type="radio"]{
 [value="ESCOBAS_MAGICAS"]:checked ~ .container-category [for="ESCOBAS_MAGICAS"],
 [value="ESCUDOS"]:checked ~ .container-category [for="ESCUDOS"],
 [value="ARCOS"]:checked ~ .container-category [for="ARCOS"],
-[value="BARITAS"]:checked ~ .container-category [for="BARITAS"],
+[value="VARITAS"]:checked ~ .container-category [for="VARITAS"],
 [value="DAGAS"]:checked ~ .container-category [for="DAGAS"]{
     background: #46a2fd;
     color: #fff;
